@@ -12,10 +12,11 @@ function App() {
 
 	return (
 		<div className='app'>
+
 			<Router>
 				<Navbar />
-
 				<Routes>
+					<Route path='/MyPortfolio' element={<Home />} />
 					<Route path='/' element={<Home />} />
 					<Route path='/projects' element={<Projects />} />
 					<Route path='/contacts' element={<Contacts />} />
@@ -24,7 +25,8 @@ function App() {
 
 				<Footer />
 			</Router>
-		</div>
+
+		</div >
 
 
 

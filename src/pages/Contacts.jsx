@@ -23,7 +23,7 @@ export default function Contacts() {
 						<p> + 375 44 728-14-53 <img className='logo-contact' src={a1} alt='A1' /></p>
 					</li>
 					<li className="content-list__item">
-						<h2 className="title-2">Email <img src={gmail} alt="gmail" /></h2>
+						<h2 className="title-2">Email<img src={gmail} alt="gmail" /></h2>
 						<p>  alexiwanov3214@mail.com </p>
 					</li>
 				</ul>
